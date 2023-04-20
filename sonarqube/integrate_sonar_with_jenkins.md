@@ -1,4 +1,4 @@
-# Integrate SonarQube wit Jenkins 
+# Integrate SonarQube with Jenkins 
 
 ## 🧰 Prerequisites
 1. a SonarQube Server [Click here to Setup Sonarqube server](https://github.com/HandsOnDevOpsTraining/docker-and-sonarqube-installation-in-aws)
