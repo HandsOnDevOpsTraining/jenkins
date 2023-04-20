@@ -16,10 +16,11 @@ Integration Steps
 1. Install SonarQube plugin
 2. Configure SonarQube credentials 
 3. Add SonarQube to jenkins "configure system" 
-4. Install SonarScanner
-5. Run Pipeline job 
+4. Install Maven 
+5. 
+6. Run Pipeline job 
    - Use help of chatgpt to create a pipeline script
-   - E.g. create a jenkins pipeline script for cloning code from github, building java code using maven and run sonar qube using sonar-scanner using project key and secret
+   - E.g. create a jenkins pipeline script for cloning code from github, building java code using maven and run sonar qube using mvn sonar using project key, name and secret
 
 ## 🧹 CleanUp  
 
