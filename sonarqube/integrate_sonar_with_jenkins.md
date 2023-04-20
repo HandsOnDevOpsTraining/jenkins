@@ -14,11 +14,12 @@ Integration Steps
 ### On Jenkins server 
 
 1. Install SonarQube plugin
-1. Configure SonarQube credentials 
-1. Add SonarQube to jenkins "configure system" 
-1. Install SonarScanner
-1. Run Pipeline job 
-
+2. Configure SonarQube credentials 
+3. Add SonarQube to jenkins "configure system" 
+4. Install SonarScanner
+5. Run Pipeline job 
+   - Use help of chatgpt to create a pipeline script
+   - E.g. create a jenkins pipeline script for cloning code from github, building java code using maven and run sonar qube using sonar-scanner using project key and secret
 
 ## 🧹 CleanUp  
 
