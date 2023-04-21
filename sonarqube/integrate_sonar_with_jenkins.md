@@ -13,7 +13,7 @@ Integration Steps
 
 ### On Jenkins server 
 
-1. Install SonarQube plugin
+1. Install SonarQube Scanner for Jenkins plugin
 2. Configure SonarQube credentials 
 3. Add SonarQube to jenkins "configure system" 
 4. Install Maven 
