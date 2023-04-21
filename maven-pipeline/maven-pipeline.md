@@ -7,7 +7,10 @@ Jenkins pipeline for Maven build
 
 1. Install Maven 
    - apt-get install maven
-2. Run Pipeline job 
+2. Clone a repository
+   - Use help of chatgpt to create a pipeline script for cloing a repo from github
+   - E.g. create a jenkins pipeline script for cloning code from github public repository
+4. Run Pipeline job 
    - Use help of chatgpt to create a pipeline script
    - E.g. create a jenkins pipeline script for cloning code from github and building java code using maven 
 
