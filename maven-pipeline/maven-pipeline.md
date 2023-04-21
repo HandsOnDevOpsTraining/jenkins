@@ -1,4 +1,4 @@
-# Integrate SonarQube with Jenkins 
+# Execute Maven pipeline with Jenkins 
 
 ## 🧰 Prerequisites
 1. A Jenkins server 
