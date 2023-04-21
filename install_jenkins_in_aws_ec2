@@ -1,0 +1,30 @@
+# Install Jenkins in AWS EC2 Instance
+
+## 🧰 Prerequisites for installing Jenkins
+1. After EC2 instance is created via AWS EC2 Console, login using SSH to the EC2
+   - ssh -i KEYPAIR-CREATED-IN-AWS-EC2 ubuntu@PUBLIC-IP-ADDRESS
+   - E.g ssh -i aws-ssh-login-keypair.pem ubuntu@3.17.140.54
+   
+2. Update & upgrade using following Linux commands 
+   - sudo su
+   - apt update -y
+   apt upgrade -y
+   
+3. Install Java JRE for Jenkins to run
+   - apt install openjdk-11-jre
+   
+4. Follow the instructions from the link below to intall Jenkins in Ubuntu
+   - https://www.jenkins.io/doc/book/installing/linux/
+
+5. After installing the Jenkins using step 4, please check the status of Jenkins using below command
+   - systemctl status jenkins
+   
+6. After the Jenkins application status is showing GREEN in command line, open the application in any browser
+   - http://PUBLIC-IP-ADDRESSS-OF-EC2:8080
+   
+7. After first installation of the Jenkins, it will ask for the initial password and you can copy from the password from following location
+   - /var/lib/jenkins/secrets/initialAdminPassword
+   
+8. After this step, you can provide the username and password information of Jenkins
+
+9. You can install required Plugins (DO NOT choose all plugins as it might not succeed)
