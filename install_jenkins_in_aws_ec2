@@ -30,4 +30,4 @@
 9. You can install required Plugins (DO NOT choose all plugins as it might not succeed)
 
 10. To run docker by default during bootup, please run below command
-    - systemctl enable docker
+    - systemctl enable jenkins
