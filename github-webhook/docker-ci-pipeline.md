@@ -12,6 +12,7 @@
 1. Goto to the project where you want to enable automatic Jenkins build to enabled
    - Navigate to Settings -> Webhooks -> Add Webhook
    - Add the url of Jenkins with a suffix of "http://IP-ADDRESS-OF-JENKINS:8080/github-webhook/"
+   - Select content type as "application/json" in the drop down
 
 ### On Jenkins server 
 
