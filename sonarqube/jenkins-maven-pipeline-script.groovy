@@ -4,7 +4,7 @@ pipeline {
     environment {
         // GITHUB_TOKEN = credentials('github-token')
         SONAR_TOKEN = credentials('sonarqube-secret')
-        SONARQUBE_HOST = 'http://3.17.140.54:9000'
+        SONARQUBE_HOST = 'http://52.15.182.125:9000'
         SONARQUBE_LOGIN = credentials('sonarqube-secret')
     }
 
