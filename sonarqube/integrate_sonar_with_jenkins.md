@@ -14,13 +14,15 @@ Integration Steps
 ### On Jenkins server 
 
 1. Install SonarQube Scanner for Jenkins plugin
-2. Configure SonarQube credentials 
-   - Add SonarQube to jenkins "configure system" 
-3. Install Maven 
-   - apt-get install maven
+2. Create credentails that will be used in step 3 below
+   - Goto Dashboard -> Manage Jenkins -> "Manage Credentials"
+3. Configure SonarQube credentials 
+   - Add SonarQube Server in 
+   -- Goto Dashboard -> Manage Jenkins -> "Configure System" 
 4. Run Pipeline job 
    - Use help of chatgpt to create a pipeline script
    - E.g. create a jenkins pipeline script for cloning code from github, building java code using maven and run sonar qube using mvn sonar using project key, name and secret
+
 
 ## 🧹 CleanUp  
 
