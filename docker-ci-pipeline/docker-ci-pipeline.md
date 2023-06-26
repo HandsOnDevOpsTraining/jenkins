@@ -1,4 +1,4 @@
-# Integrate SonarQube with Jenkins 
+# Create Docker CI pipeline in Jenkins
 
 ## 🧰 Prerequisites
 1. A Jenkins server 

@@ -1,4 +1,4 @@
-# Integrate SonarQube with Jenkins 
+# Integrate Github with Jenkins 
 
 ## 🧰 Prerequisites
 1. A Jenkins server 
